@@ -7,7 +7,7 @@ using Windows.System;
 
 namespace OpenBrowser.UWP
 {
-    public class OpenBrowser : IOpenBrowser
+    public class OpenBrowserService : IOpenBrowserService
     {
         /// <summary>
         /// Opens the supplied Uri in the default browser.

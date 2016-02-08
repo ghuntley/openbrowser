@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Microsoft.Phone.Tasks;
+using Foundation;
+using UIKit;
 
-namespace OpenBrowser.WP8
+namespace OpenBrowser.iOS
 {
-    public class OpenBrowser : IOpenBrowser
+    public class OpenBrowserService : IOpenBrowserService
     {
         /// <summary>
         /// Opens the supplied Uri in the default browser.
         /// </summary>
         public Task OpenDefaultBrowser(Uri uri)
         {
-            var webBrowserTask = new WebBrowserTask() {Uri = uri};
-            webBrowserTask.Show();
+            UIApplication.SharedApplication.OpenUrl(new NSUrl(uri.ToString()));
 
             return Task.FromResult(true);
         }

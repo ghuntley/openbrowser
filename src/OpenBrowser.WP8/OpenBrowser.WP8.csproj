@@ -84,7 +84,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="OpenBrowser.cs" />
+    <Compile Include="OpenBrowserService.cs" />
     <Compile Include="..\SolutionInfo.cs" />
   </ItemGroup>
   <ItemGroup>

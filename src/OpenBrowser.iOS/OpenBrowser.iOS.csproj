@@ -35,7 +35,7 @@
     <DocumentationFile>bin\iPhone\Release\OpenBrowser.iOS.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="OpenBrowser.cs" />
+    <Compile Include="OpenBrowserService.cs" />
     <Compile Include="..\SolutionInfo.cs" />
   </ItemGroup>
   <ItemGroup>

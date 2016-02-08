@@ -10,7 +10,7 @@ namespace OpenBrowser.Droid
     /// <summary>
     /// Opens the supplied Uri in the default browser.
     /// </summary>
-    public class OpenBrowser : Activity, IOpenBrowser
+    public class OpenBrowserService : Activity, IOpenBrowserService
 	{
 		public Task OpenDefaultBrowser(System.Uri uri)
 		{

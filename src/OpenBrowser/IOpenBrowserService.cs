@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenBrowser
 {
-    public interface IOpenBrowser
+    public interface IOpenBrowserService
     {
         Task OpenDefaultBrowser(Uri uri);
     }
