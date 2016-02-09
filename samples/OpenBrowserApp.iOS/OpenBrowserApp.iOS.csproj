@@ -139,7 +139,7 @@
     </ProjectReference>
     <ProjectReference Include="..\OpenBrowserApp.Core\OpenBrowserApp.Core.csproj">
       <Project>{140ae1ac-c314-4330-a7a3-14923b2da49e}</Project>
-      <Name>OpenBrowser.Core</Name>
+      <Name>OpenBrowserApp.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

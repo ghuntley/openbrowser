@@ -14,5 +14,4 @@ AppVeyor build of the NuGet package with this new version. If you're impatient, 
 `git tag v1.0.0`
 * Push the tag to the server. `git push --tags`
 * Accept the pull request.
-* Create a [new release](https://github.com/ghuntley/geocoordinate/releases/new)
-using the tag you just created and pasting in the release notes you just wrote up
+* Create a new release on GitHub using the tag you just created and pasting in the release notes you just wrote up

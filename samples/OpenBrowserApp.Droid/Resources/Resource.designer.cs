@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("OpenBrowser.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("OpenBrowserApp.Droid.Resource", IsApplication=true)]
 
-namespace OpenBrowser.Droid
+namespace OpenBrowserApp.Droid
 {
 	
 	
@@ -26,9 +26,9 @@ namespace OpenBrowser.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::OpenBrowser.Droid.Resource.String.ApplicationName = global::OpenBrowser.Droid.Resource.String.ApplicationName;
-			global::OpenBrowser.Droid.Resource.String.Hello = global::OpenBrowser.Droid.Resource.String.Hello;
-			global::Splat.Resource.String.library_name = global::OpenBrowser.Droid.Resource.String.library_name;
+			global::OpenBrowser.Droid.Resource.String.ApplicationName = global::OpenBrowserApp.Droid.Resource.String.ApplicationName;
+			global::OpenBrowser.Droid.Resource.String.Hello = global::OpenBrowserApp.Droid.Resource.String.Hello;
+			global::Splat.Resource.String.library_name = global::OpenBrowserApp.Droid.Resource.String.library_name;
 		}
 		
 		public partial class Attribute

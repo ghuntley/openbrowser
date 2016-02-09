@@ -26,7 +26,10 @@ namespace OpenBrowserApp.Core.ViewModels
                 async _ => { await _openBrowserService.OpenDefaultBrowser(new Uri(WebsiteAddress)); });
 
             OpenWebPage.ThrownExceptions.Subscribe(
-                ex => UserError.Throw("Does this device have a web browser installed?", ex));
+                ex =>
+                {
+                    UserError.Throw("Does this device have a web browser installed?", ex);
+                });
         }
 
         public string WebsiteAddress
